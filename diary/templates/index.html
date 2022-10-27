@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}日記ページを保存{% endblock %}
+
+{% block header %}
+
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+        <div class="container px-5">
+            <h1 class="masthead-heading mb-0">Diary</h1>
+            <h2 class="masthead-subheading mb-0">日記を保存</h2>
+            <a href="{% url 'account_login' %}" class="btn btn-primary btn-xl rounded-pill mt-5">LOG IN</a>
+        </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
+{% endblock %}
+{% block contents %}
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src= "{% static 'assets/img/IMG_01.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Web Diary</h2>
+                    <p>WEB上で作成/編集/削除できる。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="{% static 'assets/img/IMG_02.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">Save it</h2>
+                    <p>今日あった出来事や、頭の中を記録しておく場所</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle" src="{% static 'assets/img/IMG_03.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Membership System</h2>
+                    <p>会員制の日記</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
