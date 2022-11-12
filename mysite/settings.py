@@ -43,7 +43,7 @@ LOGGING = {
             'level': 'INFO',
             'class': 'logging.handlers.TimedRoatatingFileHandler',
             'formatter':'prod',
-            'wen': 'D', #ログローテーション間隔単位(D=day)
+            'when': 'D', #ログローテーション間隔単位(D=day)
             'interval': 1, #ログローテーション単位(1日単位)
             'backupCount': 7, #保存しておくログファイル数
         },
