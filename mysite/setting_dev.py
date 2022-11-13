@@ -1,7 +1,7 @@
 
 from .settings_common import *
 
-SECRET_KEY = 'django-insecure-68yvswg6%8zn%h81vm=ah90^_-kgo!r98370@ciw%q4@-qq@#z'
+SECRET_KEY = 'wu8)t=aa@gra@v90cb)#n_he)p(@rj9jirilwcry346vdly4x@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
