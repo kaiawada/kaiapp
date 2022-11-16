@@ -1,7 +1,6 @@
 
 from .settings_common import *
 
-SECRET_KEY = 'wu8)t=aa@gra@v90cb)#n_he)p(@rj9jirilwcry346vdly4x@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
